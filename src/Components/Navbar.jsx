@@ -30,13 +30,13 @@ const Navbar = () => {
   return (
     <div className="flex flex-col bg-bg-main shadow-sm  ">
       <div className="lg:flex justify-end items-center gap-5 p-2 px-10 text-xs hidden">
-        <div className="flex gap-2 justify-center items-center text-gray-600">
+        <div className="flex gap-2 justify-center items-center text-primary">
           <Mail sx={{ fontSize: 18 }} className="text-tertiary" />
           <a href="mailto:info@test.com" className="hover:text-tertiary underline-animation transition duration-300">
             info@test.com
           </a>
         </div>
-        <div className="flex gap-2 justify-center items-center text-gray-600">
+        <div className="flex gap-2 justify-center items-center text-primary">
           <Phone sx={{ fontSize: 18 }} className="text-tertiary" />
           <a href="tel:+123456789" className="hover:text-tertiary underline-animation transition duration-300">
             +123456789
@@ -86,7 +86,7 @@ const Navbar = () => {
               </button>
             </a>
           </div>
-          <div className="flex justify-center items-center gap-5 p-2 px-10 text-sm text-gray-600 mt-8">
+          <div className="flex justify-center items-center gap-5 p-2 px-10 text-sm text-primary mt-8">
             <div className="flex gap-2 justify-center items-center">
               <Mail sx={{ fontSize: 18 }} className="text-tertiary" />
               <a href="mailto:info@test.com" className="hover:text-tertiary transition duration-300">

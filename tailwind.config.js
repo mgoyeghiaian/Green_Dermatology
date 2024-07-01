@@ -12,6 +12,7 @@ export default {
         'secondary': '#f1e8db',
         'tertiary': '#128b3f',
         'secondary-green': '#41a265',
+        'footer-backgroud': "#e1d1c2",
 
       },
       fontFamily: {
