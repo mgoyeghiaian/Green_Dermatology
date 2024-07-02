@@ -1,0 +1,61 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  outline: none;
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scroll-to-top.visible {
+  background-color: #4CAF50;
+  border: 2px solid #388E3C;
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-to-top:hover {
+  transform: scale(1.2);
+}
+
+.scroll-to-top svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  transition: stroke 0.3s ease, fill 0.3s ease;
+  stroke: #FFFFFF;
+  fill: transparent;
+}
+
+.scroll-to-top svg path {
+  stroke-width: 4;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.3s ease;
+  stroke-dasharray: 53;
+  stroke-dashoffset: 53;
+}
+
+.scroll-to-top.visible svg path {
+  stroke-dashoffset: 0;
+  animation: fill 0.6s ease forwards;
+}
+
+@keyframes fill {
+  0% {
+    stroke-dashoffset: 53;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

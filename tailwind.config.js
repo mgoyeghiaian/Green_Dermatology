@@ -19,9 +19,9 @@ export default {
         sans: ['Myriad Pro', 'sans-serif'],
       },
       backgroundImage: {
-        'header': "url('/src/assets/Background_Main.jpg')",
-        'firstsection': "url('/src/assets/Background_Main.jpg')",
-        'getintouch': "url('/src/assets/Background_Main.jpg')",
+        'hero-background': "url('/src/assets/slider.jpg')",
+        'services-background': "url('/src/assets/services-background.jpg')",
+        'getintouch-background': "url('/src/assets/contact-form-background.jpg')",
       },
     },
   },

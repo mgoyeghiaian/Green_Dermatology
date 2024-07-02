@@ -1,6 +1,7 @@
 import { Mail, Phone, Menu, Close } from "@mui/icons-material";
 import Logo from '/src/assets/Logooooo.png';
-import { Link as scroller } from 'react-scroll';
+// eslint-disable-next-line no-unused-vars
+import { Link as ScrollLink, scroller } from 'react-scroll';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -24,7 +25,7 @@ const Navbar = () => {
         duration: 500,
       });
       closeMenu();
-    }, 100); // slight delay to ensure navigation is completed
+    }, 100);
   };
 
   return (
@@ -52,12 +53,12 @@ const Navbar = () => {
         <div className="hidden lg:flex justify-center items-center gap-14 text-gray-800 font-semibold">
           <Link to="/" className="hover:text-tertiary underline-animation transition duration-300">Home</Link>
           <a onClick={() => handleScrollToSection('aboutus')} className="cursor-pointer hover:text-tertiary underline-animation transition duration-300">About us</a>
-          <Link to="/services" className="hover:text-tertiary underline-animation transition duration-300">Services</Link>
+          <a onClick={() => handleScrollToSection('services')} className="hover:text-tertiary cursor-pointer underline-animation transition duration-300">Services</a>
           <Link to="/physicians" className="hover:text-tertiary underline-animation transition duration-300">Physicians</Link>
         </div>
         <div className="hidden lg:flex">
           <a onClick={() => handleScrollToSection('getintouch')} className="cursor-pointer">
-            <button className="bg-tertiary text-secondary  py-2 px-4 rounded-full hover:bg-secondary-green transition duration-300">
+            <button className="bg-tertiary text-secondary  py-2 px-4 rounded-md hover:bg-secondary-green transition duration-300">
               Make Appointment
             </button>
           </a>
@@ -78,10 +79,10 @@ const Navbar = () => {
           <div className="flex flex-col items-center space-y-6">
             <Link to="/" className="text-2xl font-semibold text-gray-800 hover:text-tertiary underline-animation transition duration-300" onClick={closeMenu}>Home</Link>
             <a onClick={() => handleScrollToSection('aboutus')} className="text-2xl font-semibold text-gray-800 cursor-pointer hover:text-tertiary underline-animation transition duration-300">About us</a>
-            <Link to="/services" className="text-2xl font-semibold text-gray-800 hover:text-tertiary underline-animation transition duration-300" onClick={closeMenu}>Services</Link>
+            <a onClick={() => handleScrollToSection('services')} className="text-2xl font-semibold text-gray-800 hover:text-tertiary underline-animation transition duration-300" >Services</a>
             <Link to="/physicians" className="text-2xl font-semibold text-gray-800 hover:text-tertiary underline-animation transition duration-300" onClick={closeMenu}>Physicians</Link>
             <a onClick={() => handleScrollToSection('getintouch')} className="cursor-pointer">
-              <button className="bg-tertiary text-white py-2 px-6 rounded-full hover:bg-secondary-green transition duration-300 text-xl">
+              <button className="bg-tertiary text-white py-2 px-6 rounded-md hover:bg-secondary-green transition duration-300 text-xl">
                 Make Appointment
               </button>
             </a>
@@ -103,7 +104,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
