@@ -1,6 +1,7 @@
 import Image from '/src/assets/footer2.jpg'
 import Logo from '/src/assets/Logooooo.png'
 import Logoo from '/src/assets/in2infoLogo.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -13,17 +14,21 @@ const Footer = () => {
             <p className="text-[14px] leading-relaxed">Address Street Number 10981</p>
           </div>
           <div className="flex flex-row flex-wrap items-start justify-start gap-9 md:gap-16">
-            <div>
+            <div className='flex flex-col justify-center'>
               <h5 className="text-[20px] font-bold mb-2">Services</h5>
-              {Array.from({ length: 8 }, (_, i) => (
-                <p key={i} className="text-[14px] leading-relaxed">Service {i + 1}</p>
-              ))}
+              <Link to="/services/1" className="text-[14px] text-primary hover:text-tertiary  leading-relaxed hover:underline">Acne</Link>
+              <Link to="/services/2" className="text-[14px] text-primary hover:text-tertiary leading-relaxed hover:underline">Skin Cancer</Link>
+              <Link to="/services/3" className="text-[14px] text-primary hover:text-tertiary leading-relaxed hover:underline">Mosh Surgery</Link>
+              <Link to="/services/4" className="text-[14px] text-primary hover:text-tertiary leading-relaxed hover:underline">Eczema</Link>
+              <Link to="/services/5" className="text-[14px] text-primary hover:text-tertiary leading-relaxed hover:underline">Rashes</Link>
+              <Link to="/services/6" className="text-[14px] text-primary hover:text-tertiary leading-relaxed hover:underline">Excisons</Link>
+              <Link to="/services/7" className="text-[14px] text-primary hover:text-tertiary leading-relaxed hover:underline">Warts</Link>
+              <Link to="/services/8" className="text-[14px] text-primary hover:text-tertiary leading-relaxed hover:underline">Psoriasis</Link>
             </div>
-            <div>
+            <div className='pb-5'>
               <h5 className="text-[20px] font-bold mb-2">Physicians</h5>
-              {Array.from({ length: 3 }, (_, i) => (
-                <p key={i} className="text-[14px] leading-relaxed">Physician {i + 1}</p>
-              ))}
+              <Link to="/physiciansdetails/1" className="text-[14px] text-primary hover:text-tertiary  leading-relaxed hover:underline">Paige Venables</Link>
+
             </div>
           </div>
         </div>
