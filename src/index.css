@@ -29,3 +29,14 @@ body {
   width: 100%;
   left: 0;
 }
+
+.service-card {
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  background-color: #f1e8db!important; 
+  border-color: #36454F; 
+  color: #36454F; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+}

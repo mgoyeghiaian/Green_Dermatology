@@ -6,14 +6,16 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'middle': { 'min': '1024px', 'max': '1312px' },
+      },
       colors: {
         'bg-main': '#f5fbff',
         'primary': "#36454F",
         'secondary': '#f1e8db',
         'tertiary': '#128b3f',
         'secondary-green': '#41a265',
-        'footer-backgroud': "#e1d1c2",
-
+        'footer-background': "#e1d1c2",
       },
       fontFamily: {
         sans: ['Myriad Pro', 'sans-serif'],
