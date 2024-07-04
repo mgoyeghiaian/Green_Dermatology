@@ -1,8 +1,23 @@
 import OutClinic from '/src/assets/OurCLin.svg';
 import OurPhy from '/src/assets/OurPhy.svg';
 import ContactUs from '/src/assets/ContactUs.svg';
-
+import { scroller } from 'react-scroll';
+import { useNavigate } from 'react-router-dom';
 const Afterherobanner = () => {
+  const navigate = useNavigate();
+
+
+  const handleScrollToSection = (section) => {
+    navigate('/');
+    setTimeout(() => {
+      scroller.scrollTo(section, {
+        smooth: true,
+        duration: 500,
+      });
+    }, 100);
+  };
+
+
   return (
     <div className="min-w-fit min-h-[32vh] flex flex-col lg:flex-row items-center border-y-2 border-y-black justify-center text-secondary font-bold">
 
@@ -13,7 +28,7 @@ const Afterherobanner = () => {
           <h5>Delaware Dermatology, where</h5>
           <h5>compassionate care meets expertise</h5>
         </div>
-        <a href='/' className='border p-2 px-4 rounded-lg bg-transparent text-secondary border-secondary hover:bg-secondary hover:text-tertiary transition-colors mt-2 md:text-sm sm:text-xs md:px-3 sm:px-2'>Apply For A Bed</a>
+        <a href='/aboutus' className='border p-2 px-4 rounded-lg bg-transparent text-secondary border-secondary hover:bg-secondary hover:text-tertiary transition-colors mt-2 md:text-sm sm:text-xs md:px-3 sm:px-2'>About us</a>
       </div>
 
       <div className="w-full bg-tertiary lg:w-[24%] h-[32vh] p-5 middle:h-[45vh] flex flex-col gap-2.5 items-center justify-center text-center lg:items-start lg:justify-center lg:text-start border-y lg:border-y-0 lg:border-x-2 border-secondary">
@@ -23,7 +38,7 @@ const Afterherobanner = () => {
           <h5>Meet the skilled hands and</h5>
           <h5>compassionate hearts behind us</h5>
         </div>
-        <a href='tel:+106723263267' className='border p-2 px-4 rounded-lg bg-transparent text-secondary border-secondary hover:bg-secondary hover:text-tertiary transition-colors mt-2 md:text-sm sm:text-xs md:px-3 sm:px-2'>+10 672 326 3267</a>
+        <a href='/physicians' className='border p-2 px-4 rounded-lg bg-transparent text-secondary border-secondary hover:bg-secondary hover:text-tertiary transition-colors mt-2 md:text-sm sm:text-xs md:px-3 sm:px-2'>Our Physicians</a>
       </div>
 
       <div className="w-full bg-tertiary opacity-80 lg:w-[38%] h-[32vh] middle:h-[45vh] p-5 flex flex-col gap-2.5 items-center justify-center text-center lg:items-start lg:justify-center lg:text-start">
@@ -33,7 +48,7 @@ const Afterherobanner = () => {
           <h5>Situated just a step away,</h5>
           <h5>ready to answer your questions</h5>
         </div>
-        <a href='/' className='border p-2 px-4 rounded-lg bg-transparent text-secondary border-secondary hover:bg-secondary hover:text-tertiary transition-colors mt-2 md:text-sm sm:text-xs md:px-3 sm:px-2'>Make An Appointment</a>
+        <a onClick={() => handleScrollToSection('getintouch')} className='border p-2 px-4 cursor-pointer rounded-lg bg-transparent text-secondary border-secondary hover:bg-secondary hover:text-tertiary transition-colors mt-2 md:text-sm sm:text-xs md:px-3 sm:px-2'>CONTACT US</a>
       </div>
 
     </div>

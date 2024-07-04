@@ -4,6 +4,7 @@ import Physicians from "./Pages/Physicians/Physicians";
 import Physiciansdetails from "./Pages/Physicians/Physiciansdetails";
 import Home from "./Pages/Home/Home";
 import ServicesDetails from "./Pages/Services/ServicesDetails";
+import Aboutus from "./Pages/Aboutus/Aboutus";
 
 const SharedRoutes = () => {
   return (
@@ -12,6 +13,7 @@ const SharedRoutes = () => {
       <Route path="/services" element={<Services />} />
       <Route path="/services/:id" element={<ServicesDetails />} />
       <Route path="/physicians" element={<Physicians />} />
+      <Route path="/aboutus" element={<Aboutus />} />
       <Route path="/physiciansdetails/:id" element={<Physiciansdetails />} />
     </Routes>
   );
