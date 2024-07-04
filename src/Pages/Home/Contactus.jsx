@@ -1,7 +1,7 @@
 
 const Contactus = () => {
   return (
-    <div className="bg-red-500 h-screen flex items-center justify-center text-white font-bold">
+    <div className="bg-getintouch-background bg-cover bg-center bg-no-repeat   h-screen">
       Contactus
     </div>
   )

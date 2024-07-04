@@ -1,4 +1,4 @@
-import Image from '/src/assets/footer2.jpg'
+import Image from '/src/assets/footer3.jpg'
 import Logo from '/src/assets/Logooooo.png'
 import Logoo from '/src/assets/in2infoLogo.png'
 import { Link } from 'react-router-dom'
@@ -6,7 +6,7 @@ import services from '/src/Db/ServicesDb.js';
 
 const Footer = () => {
   return (
-    <div className="bg-footer-backgroud w-full h-auto  flex flex-col md:flex-row px-8 text-primary  md:py-0">
+    <div className="bg-footer-backgroud border-y-2 border-primary w-full h-auto p-8 pr-0 bg-[#ECE3D4] flex flex-col md:flex-row  text-primary  md:py-0">
       <div className="w-full md:w-1/2 h-full flex flex-col items-start justify-between p-2 pt-4">
         <div className="flex flex-col gap-6 md:gap-9">
           <img src={Logo} className="h-[60px] self-start" alt="Logo" />
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="hidden md:block w-1/2 h-full">
-        <img src={Image} className="w-full h-[470px] object-cover" alt="Footer" />
+        <img src={Image} className="w-full h-[460px] object-cover" alt="Footer" />
       </div>
     </div>
   )
