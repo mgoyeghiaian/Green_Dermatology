@@ -51,14 +51,14 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="hidden lg:flex justify-center items-center gap-14 text-gray-800 font-semibold">
-          <Link to="/" className="hover:text-tertiary underline-animation transition duration-300">Home</Link>
-          <a onClick={() => handleScrollToSection('aboutus')} className="cursor-pointer hover:text-tertiary underline-animation transition duration-300">About us</a>
-          <a onClick={() => handleScrollToSection('services')} className="hover:text-tertiary cursor-pointer underline-animation transition duration-300">Services</a>
-          <Link to="/physicians" className="hover:text-tertiary underline-animation transition duration-300">Physicians</Link>
+          <Link to="/" className="hover:text-tertiary underline-animation transition hover:font-extrabold duration-300">Home</Link>
+          <a onClick={() => handleScrollToSection('aboutus')} className="cursor-pointer hover:text-tertiary hover:font-extrabold   underline-animation transition duration-300">About us</a>
+          <a onClick={() => handleScrollToSection('services')} className="hover:text-tertiary hover:font-extrabold  cursor-pointer underline-animation transition duration-300">Services</a>
+          <Link to="/physicians" className="hover:text-tertiary underline-animation transition  hover:font-extrabold duration-300">Physicians</Link>
         </div>
         <div className="hidden lg:flex">
           <a onClick={() => handleScrollToSection('getintouch')} className="cursor-pointer">
-            <button className="bg-tertiary text-secondary  py-2 px-4 rounded-md hover:bg-secondary-green transition duration-300">
+            <button className="bg-tertiary text-secondary  py-2 px-4 rounded-md hover:bg-secondary-green  transition duration-300">
               Make Appointment
             </button>
           </a>

@@ -10,7 +10,7 @@ const Serviceshome = () => {
           At Delaware Dermatology, our expertise spans a wide range of dermatological conditions, ensuring comprehensive care for our patients. From common concerns like acne and eczema to more serious conditions such as skin cancer.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full lg:w-auto justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full lg:w-auto justify-center  justify-items-center">
         {services.map((service) => (
           <a href={`/services/${service.id}`} className="cursor-pointer w-full md:w-[100%] lg:w-[250px] h-auto md:h-[250px] m-0.2" key={service.id}>
             <div
@@ -27,6 +27,7 @@ const Serviceshome = () => {
             </div>
           </a>
         ))}
+        <div className='w-full h-full text-secondary flex flex-col justify-center text-center md:text-left items-center md:items-start p-4 border-secondary border bg-tertiary opacity-80 ' />
       </div>
     </div >
   );
