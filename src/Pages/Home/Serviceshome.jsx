@@ -17,8 +17,8 @@ const Serviceshome = () => {
               className={`service-card w-full h-full text-secondary flex flex-col justify-center text-center md:text-left items-center md:items-start p-4 border-y  border-secondary md:border bg-tertiary middle:p-10`}
               style={{ backgroundColor: `rgba(18, 139, 63, ${service.opacity})` }}
             >
-              <h1 className="text-2xl md:text-4xl font-medium mb-2 text-left">{service.title}</h1>
-              <p className="text-xl md:text-2xl  line-clamp-2">
+              <h1 className="text-2xl md:text-xl font-medium mb-2 text-left">{service.title}</h1>
+              <p className="text-xl md:text-sm  line-clamp-2">
                 {service.description}
               </p>
               <div className="mt-2 flex items-center">

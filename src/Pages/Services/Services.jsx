@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
 import services from '/src/Db/ServicesDb.js';
 import BannerImage from '/src/assets/services-banner.jpg';

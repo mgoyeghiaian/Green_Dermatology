@@ -12,7 +12,7 @@ const Footer = () => {
           <img src={Logo} className="h-[60px] self-start" alt="Logo" />
           <div>
             <h5 className="text-[20px] font-bold mb-2">About us</h5>
-            <p className="text-[14px] leading-relaxed">Address Street Number 10981</p>
+            <p className="text-[14px] leading-relaxed">310 Mullet Run St, Milford, DE 19963</p>
           </div>
           <div className="flex flex-row flex-wrap items-start justify-start gap-9 md:gap-16">
             <div className='flex flex-col justify-center'>

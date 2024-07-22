@@ -86,7 +86,7 @@ const Contactus = () => {
         </form>
         <div className="w-full lg:w-1/2 self-start flex flex-col gap-4">
           <a
-            href="https://maps.google.com/?q=Address Street Number 10981"
+            href="https://maps.app.goo.gl/9Q1DkZ7hLk8FLJxz7"
             target="_blank"
             rel="noopener noreferrer"
             className="flex gap-2 items-center p-2 lg:px-10 hover:bg-gray-100 w-fit rounded-lg transition-colors"
@@ -94,27 +94,27 @@ const Contactus = () => {
             <Home sx={{ fontSize: 35 }} className="text-tertiary" />
             <div>
               <h3 className="text-xl text-tertiary font-medium">DELAWARE</h3>
-              <p className="text-md">Address Street Number 10981</p>
+              <p className="text-md">310 Mullet Run St, Milford, DE 19963</p>
             </div>
           </a>
           <a
-            href="tel:+1234567890"
+            href="tel:+13024595010"
             className="flex gap-2 items-center p-2 lg:px-10 hover:bg-gray-100 w-fit rounded-lg transition-colors"
           >
             <PhoneAndroidOutlined sx={{ fontSize: 35 }} className="text-tertiary" />
             <div>
               <h3 className="text-xl text-tertiary font-medium">Phone Number</h3>
-              <p className="text-md">+1 234 567 890</p>
+              <p className="text-md">+1 (302) 459-5010</p>
             </div>
           </a>
           <a
-            href="mailto:info@greendermatology.com"
+            href="mailto: kris@greenclinics.net"
             className="flex gap-2 items-center p-2 lg:px-10 hover:bg-gray-100 w-fit rounded-lg transition-colors"
           >
             <Email sx={{ fontSize: 35 }} className="text-tertiary" />
             <div>
               <h3 className="text-xl text-tertiary font-medium">Email</h3>
-              <p className="text-md">info@greendermatology.com</p>
+              <p className="text-md"> kris@greenclinics.net</p>
             </div>
           </a>
         </div>

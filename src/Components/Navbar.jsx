@@ -33,14 +33,14 @@ const Navbar = () => {
       <div className="lg:flex justify-end items-center gap-5 p-2 px-10 text-xs hidden">
         <div className="flex gap-2 justify-center items-center text-primary">
           <Mail sx={{ fontSize: 18 }} className="text-tertiary" />
-          <a href="mailto:info@test.com" className="hover:text-tertiary underline-animation transition duration-300">
-            info@test.com
+          <a href="mailto: kris@greenclinics.net" className="hover:text-tertiary underline-animation transition duration-300">
+            kris@greenclinics.net
           </a>
         </div>
         <div className="flex gap-2 justify-center items-center text-primary">
           <Phone sx={{ fontSize: 18 }} className="text-tertiary" />
-          <a href="tel:+123456789" className="hover:text-tertiary underline-animation transition duration-300">
-            +123456789
+          <a href="tel:+13024595010" className="hover:text-tertiary underline-animation transition duration-300">
+            +1 (302) 459-5010
           </a>
         </div>
       </div>
@@ -87,18 +87,17 @@ const Navbar = () => {
               </button>
             </a>
           </div>
-          <div className="flex justify-center items-center gap-5 p-2 px-10 text-sm text-primary mt-8">
+          <div className="flex justify-center flex-col items-center gap-5 p-2 px-10 text-sm text-primary mt-8">
             <div className="flex gap-2 justify-center items-center">
               <Mail sx={{ fontSize: 18 }} className="text-tertiary" />
-              <a href="mailto:info@test.com" className="hover:text-tertiary transition duration-300">
-                info@test.com
+              <a href="mailto: kris@greenclinics.net" className="hover:text-tertiary transition duration-300">
+                kris@greenclinics.net
               </a>
             </div>
-            <span>|</span>
             <div className="flex gap-2 justify-center items-center">
               <Phone sx={{ fontSize: 18 }} className="text-tertiary" />
-              <a href="tel:+123456789" className="hover:text-tertiary transition duration-300">
-                +123456789
+              <a href="tel:+13024595010" className="hover:text-tertiary transition duration-300">
+                +1 (302) 459-5010
               </a>
             </div>
           </div>
