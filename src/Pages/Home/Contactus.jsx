@@ -8,21 +8,42 @@ const Contactus = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_gy40x8q', 'template_htbi42f', e.target, 'wxfzVeXstYnxbspLA')
-      .then((result) => {
-        toast.success('Your message has been sent successfully! We will get back to you shortly.');
-      }, (error) => {
+    const form = e.target;
+    const formData = {
+      fname: form.fname.value,
+      lname: form.lname.value,
+      email: form.email.value,
+      subject: form.subject.value,
+    };
+
+    // Sending the email to Green Dermatology
+    emailjs.send('service_7lw1kzs', 'template_dz9bs3n', formData, 'zgcjV3EOTeSvGGhZn')
+      .then(() => {
+        // Sending confirmation email to the client
+        emailjs.send('service_7lw1kzs', 'template_qbpvzva', {
+          to_email: formData.email,
+          to_name: `${formData.fname} ${formData.lname}`,
+        }, 'zgcjV3EOTeSvGGhZn')
+          .then(() => {
+            toast.success('Your message has been sent successfully! We will get back to you shortly.');
+          })
+          .catch(() => {
+            toast.error('Failed to send confirmation email to the client.');
+          });
+      })
+      .catch(() => {
         toast.error('Oops! Something went wrong while sending your message. Please try again later.');
       });
 
-    e.target.reset();
+    form.reset();
   };
+
   return (
     <div className="bg-getintouch-background bg-cover bg-center bg-no-repeat flex flex-col items-center pt-5 gap-5 lg:gap-36 md:p-16 min-h-screen">
       <div className="lg:w-1/2 flex flex-col items-center text-center p-5 md:p-0">
         <h1 className="text-2xl md:text-4xl font-medium text-tertiary">GET IN TOUCH</h1>
         <h5 className="text-xl md:text-2xl text-primary">
-          We&apos;wre here to help! If you have any questions, concerns, or comments about Green Dermatology, please feel free to reach out to us using the form below. We strive to respond promptly to all inquiries and look forward to assisting you with your dermatological needs.
+          We're here to help! If you have any questions, concerns, or comments about Green Dermatology, please feel free to reach out to us using the form below. We strive to respond promptly to all inquiries and look forward to assisting you with your dermatological needs.
         </h5>
       </div>
       <div className="w-full flex flex-col lg:flex-row justify-center items-center p-5 gap-8">

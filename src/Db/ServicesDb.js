@@ -25,11 +25,14 @@ const services = [
         title: 'Schedule Your Consultation',
         content: `Take the first step towards clearer skin today. Call Green Dermatology at [phone number] to schedule your appointment with our experienced dermatology team. Your journey to healthier skin starts here.`
       }
-    ]
+    ],
+    opacity: 0.65,
+
   },
   {
     id: 'SRV-1002',
     title: 'SKIN CANCER',
+    opacity: 0.4,
     introTitle: 'Early detection is key to successful treatment.',
     description: `At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C specializes in preventing, diagnosing, and treating all types of skin cancer, offering advanced treatments including Mohs surgery with a proven track record of success.`,
     details: [
@@ -50,6 +53,8 @@ const services = [
   {
     id: 'SRV-1003',
     title: 'ECZEMA',
+    opacity: 0.76,
+
     introTitle: 'Struggling with eczema?',
     description: `You're not alone. Whether you're an infant or an adult, eczema can cause intense itching and discomfort. At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C offers comprehensive therapies to manage eczema symptoms and improve skin health.`,
     details: [
@@ -78,6 +83,8 @@ const services = [
   {
     id: 'SRV-1004',
     title: 'RASHES',
+    opacity: 0.85,
+
     introTitle: 'Dealing with a troublesome rash?',
     description: `Whether it's a one-time occurrence or a persistent issue, skin irritations can significantly affect your daily life. At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C specializes in diagnosing and treating rashes to provide relief and improve skin health.`,
     details: [
@@ -102,6 +109,8 @@ const services = [
   {
     id: 'SRV-1005',
     title: 'EXCISIONS',
+    opacity: 0.9,
+
     introTitle: 'Concerned about abnormal skin growths?',
     description: `Prompt evaluation and treatment are crucial to address potential precancerous or cancerous conditions. At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C specializes in performing precise and minimally invasive excisions to remove concerning skin lesions.`,
     details: [
@@ -140,6 +149,8 @@ const services = [
   {
     id: 'SRV-1006',
     title: 'WARTS',
+    opacity: 0.65,
+
     introTitle: 'Dealing with bothersome warts?',
     description: `Although typically harmless, these skin growths can be irritating and persistent. At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C offers a comprehensive range of treatments to effectively remove warts without leaving scars, utilizing both traditional and advanced methods.`,
     details: [
@@ -176,6 +187,8 @@ const services = [
   {
     id: 'SRV-1007',
     title: 'PSORIASIS',
+    opacity: 0.45,
+
     introTitle: 'Dealing with the persistent discomfort of psoriasis?',
     description: `At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C specializes in managing psoriasis symptoms with a range of effective treatments. As a proud member of the National Psoriasis Foundation, they stay at the forefront of innovative therapies to alleviate your discomfort and restore your skin's health.`,
     details: [

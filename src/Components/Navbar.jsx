@@ -44,17 +44,17 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-between items-center p-4 lg:px-10">
+      <div className="flex lg:justify-center  lg:gap-72 justify-between p-4 lg:px-10">
         <div>
           <Link to="/">
-            <img src={Logo} className="h-20" alt="Logo" />
+            <img src={Logo} className=" h-16 lg:h-20" alt="Logo" />
           </Link>
         </div>
-        <div className="hidden lg:flex justify-center items-center gap-14 text-gray-800 font-semibold">
-          <Link to="/" className="hover:text-tertiary underline-animation transition hover:font-extrabold duration-300">Home</Link>
-          <a onClick={() => handleScrollToSection('aboutus')} className="cursor-pointer hover:text-tertiary hover:font-extrabold   underline-animation transition duration-300">About us</a>
-          <a onClick={() => handleScrollToSection('services')} className="hover:text-tertiary hover:font-extrabold  cursor-pointer underline-animation transition duration-300">Services</a>
-          <Link to="/physicians" className="hover:text-tertiary underline-animation transition  hover:font-extrabold duration-300">Physicians</Link>
+        <div className="hidden lg:flex justify-center items-center gap-14 text-gray-800 font-medium ">
+          <Link to="/" className="hover:text-secondary-green underline-animation transition  duration-300">Home</Link>
+          <a onClick={() => handleScrollToSection('aboutus')} className="cursor-pointer hover:text-secondary-green   underline-animation transition duration-300">About us</a>
+          <a onClick={() => handleScrollToSection('services')} className="hover:text-secondary-green  cursor-pointer underline-animation transition duration-300">Services</a>
+          <Link to="/physicians" className="hover:text-secondary-green underline-animation transition   duration-300">Physicians</Link>
         </div>
         <div className="hidden lg:flex">
           <a onClick={() => handleScrollToSection('getintouch')} className="cursor-pointer">

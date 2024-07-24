@@ -14,11 +14,11 @@ const Serviceshome = () => {
         {services.map((service) => (
           <a href={`/services/${service.id}`} className="cursor-pointer w-full md:w-[100%] lg:w-[250px] h-auto md:h-[250px] m-0.2" key={service.id}>
             <div
-              className={`service-card w-full h-full text-secondary flex flex-col justify-center text-center md:text-left items-center md:items-start p-4 border-y  border-secondary md:border bg-tertiary middle:p-10`}
+              className={`service-card w-full h-full text-secondary flex flex-col justify-center text-center md:text-left items-center md:items-start p-4 border-y border-opacity-50  border-secondary md:border bg-tertiary middle:p-10`}
               style={{ backgroundColor: `rgba(18, 139, 63, ${service.opacity})` }}
             >
-              <h1 className="text-2xl md:text-xl font-medium mb-2 text-left">{service.title}</h1>
-              <p className="text-xl md:text-sm  line-clamp-2">
+              <h1 className="text-2xl md:text-xl font-medium mb-2 text-left opacity-100">{service.title}</h1>
+              <p className="text-xl md:text-sm  line-clamp-2 opacity-100">
                 {service.description}
               </p>
               <div className="mt-2 flex items-center">
@@ -27,7 +27,7 @@ const Serviceshome = () => {
             </div>
           </a>
         ))}
-        <div className='w-full h-full text-secondary flex flex-col justify-center text-center md:text-left items-center md:items-start p-4 border-secondary border bg-tertiary opacity-80 ' />
+        <div className='w-full h-full text-secondary flex flex-col justify-center text-center md:text-left items-center md:items-start p-4 border-opacity-50 border-secondary border bg-tertiary opacity-80 ' />
       </div>
     </div >
   );

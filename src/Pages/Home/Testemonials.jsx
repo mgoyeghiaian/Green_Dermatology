@@ -41,7 +41,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="min-h-[60vh] bg-bg-main flex flex-col border-y-2 border-primary items-center justify-center text-primary p-4">
+    <div className="min-h-[40vh] bg-bg-main flex flex-col border-y border-primary items-center justify-center text-primary p-4">
       <div className="relative w-full max-w-4xl flex items-center justify-center">
         <button
           className="hidden md:block absolute left-0 top-1/2 transform -translate-y-1/2 bg-transparent p-2"
