@@ -1,4 +1,4 @@
-import { Home, PhoneAndroidOutlined, Email } from "@mui/icons-material";
+import { Home, PhoneAndroidOutlined } from "@mui/icons-material";
 import { Button, TextField } from "@mui/material";
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
@@ -40,11 +40,11 @@ const Contactus = () => {
 
   return (
     <div className="bg-getintouch-background bg-cover bg-center bg-no-repeat flex flex-col items-center pt-5 gap-5 lg:gap-36 md:p-16 min-h-screen">
-    
+
       <div className="lg:w-1/2 flex flex-col items-center text-center p-5 md:p-0">
         <h1 className="text-2xl md:text-4xl font-medium text-tertiary">GET IN TOUCH</h1>
         <h5 className="text-xl md:text-2xl text-primary">
-          We're here to help! If you have any questions, concerns, or comments about Green Dermatology, please feel free to reach out to us using the form below. We strive to respond promptly to all inquiries and look forward to assisting you with your dermatological needs.
+          We&apos;re here to help! If you have any questions, concerns, or comments about Green Dermatology, please feel free to reach out to us using the form below. We strive to respond promptly to all inquiries and look forward to assisting you with your dermatological needs.
         </h5>
       </div>
       <div className="w-full flex flex-col lg:flex-row justify-center items-center p-5 gap-8">
@@ -115,7 +115,7 @@ const Contactus = () => {
           >
             <Home sx={{ fontSize: 35 }} className="text-tertiary" />
             <div>
-              <h3 className="text-xl text-tertiary font-medium">DELAWARE</h3>
+              {/* <h3 className="text-xl text-tertiary font-medium">DELAWARE</h3> */}
               <p className="text-md">310 Mullet Run St, Milford, DE 19963</p>
             </div>
           </a>
@@ -129,7 +129,7 @@ const Contactus = () => {
               <p className="text-md">+1 (302) 459-5010</p>
             </div>
           </a>
-          <a
+          {/* <a
             href="mailto: kris@greenclinics.net"
             className="flex gap-2 items-center p-2 lg:px-10 hover:bg-gray-100 w-fit rounded-lg transition-colors"
           >
@@ -138,7 +138,7 @@ const Contactus = () => {
               <h3 className="text-xl text-tertiary font-medium">Email</h3>
               <p className="text-md"> kris@greenclinics.net</p>
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

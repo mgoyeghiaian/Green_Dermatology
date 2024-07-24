@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col gap-6 md:gap-9">
           <img src={Logo} className="h-[60px] self-start" alt="Logo" />
           <div>
-            <h5 className="text-[20px] font-bold mb-2">About us</h5>
+            <a href='/aboutus' className="text-[20px] font-bold text-primary hover:text-tertiary  leading-relaxed hover:underline"> <h5 >About us</h5></a>
             <p className="text-[14px] leading-relaxed">310 Mullet Run St, Milford, DE 19963</p>
           </div>
           <div className="flex flex-row flex-wrap items-start justify-start gap-9 md:gap-16">
@@ -28,7 +28,7 @@ const Footer = () => {
               ))}
             </div>
             <div className='pb-5'>
-              <a href='/physicians' className="text-[20px] font-bold text-primary hover:text-tertiary  leading-relaxed hover:underline">Physicians</a>
+              <a href='/physicians' className="text-[20px] font-bold text-primary hover:text-tertiary  leading-relaxed hover:underline">Providers</a>
 
             </div>
           </div>

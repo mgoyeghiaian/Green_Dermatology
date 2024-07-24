@@ -33,8 +33,8 @@ const Navbar = () => {
       <div className="lg:flex justify-end items-center gap-5 p-2 px-10 text-xs hidden">
         <div className="flex gap-2 justify-center items-center text-primary">
           <Mail sx={{ fontSize: 18 }} className="text-tertiary" />
-          <a href="mailto: kris@greenclinics.net" className="hover:text-tertiary underline-animation transition duration-300">
-            kris@greenclinics.net
+          <a href="mailto: online@greendermatology.net" className="hover:text-tertiary underline-animation transition duration-300">
+            online@greendermatology.net
           </a>
         </div>
         <div className="flex gap-2 justify-center items-center text-primary">
@@ -54,7 +54,7 @@ const Navbar = () => {
           <Link to="/" className="hover:text-secondary-green underline-animation transition  duration-300">Home</Link>
           <a onClick={() => handleScrollToSection('aboutus')} className="cursor-pointer hover:text-secondary-green   underline-animation transition duration-300">About us</a>
           <a onClick={() => handleScrollToSection('services')} className="hover:text-secondary-green  cursor-pointer underline-animation transition duration-300">Services</a>
-          <Link to="/physicians" className="hover:text-secondary-green underline-animation transition   duration-300">Physicians</Link>
+          <Link to="/physicians" className="hover:text-secondary-green underline-animation transition   duration-300">Providers</Link>
         </div>
         <div className="hidden lg:flex">
           <a onClick={() => handleScrollToSection('getintouch')} className="cursor-pointer">
@@ -80,7 +80,7 @@ const Navbar = () => {
             <Link to="/" className="text-2xl font-semibold text-gray-800 hover:text-tertiary underline-animation transition duration-300" onClick={closeMenu}>Home</Link>
             <a onClick={() => handleScrollToSection('aboutus')} className="text-2xl font-semibold text-gray-800 cursor-pointer hover:text-tertiary underline-animation transition duration-300">About us</a>
             <a onClick={() => handleScrollToSection('services')} className="text-2xl font-semibold text-gray-800 hover:text-tertiary underline-animation transition duration-300" >Services</a>
-            <Link to="/physicians" className="text-2xl font-semibold text-gray-800 hover:text-tertiary underline-animation transition duration-300" onClick={closeMenu}>Physicians</Link>
+            <Link to="/physicians" className="text-2xl font-semibold text-gray-800 hover:text-tertiary underline-animation transition duration-300" onClick={closeMenu}>Providers</Link>
             <a onClick={() => handleScrollToSection('getintouch')} className="cursor-pointer">
               <button className="bg-tertiary text-white py-2 px-6 rounded-md hover:bg-secondary-green transition duration-300 text-xl">
                 Make Appointment
@@ -90,8 +90,8 @@ const Navbar = () => {
           <div className="flex justify-center flex-col items-center gap-5 p-2 px-10 text-sm text-primary mt-8">
             <div className="flex gap-2 justify-center items-center">
               <Mail sx={{ fontSize: 18 }} className="text-tertiary" />
-              <a href="mailto: kris@greenclinics.net" className="hover:text-tertiary transition duration-300">
-                kris@greenclinics.net
+              <a href="mailto: online@greendermatology.net" className="hover:text-tertiary transition duration-300">
+                online@greendermatology.net
               </a>
             </div>
             <div className="flex gap-2 justify-center items-center">

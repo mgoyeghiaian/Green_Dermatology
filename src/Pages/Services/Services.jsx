@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import services from '/src/Db/ServicesDb.js';
@@ -10,11 +10,13 @@ const Services = () => {
   const service = services.find(s => s.id === id);
 
   useEffect(() => {
-    const element = document.getElementById('serviceData');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    if (service) {
+      const element = document.getElementById('serviceData');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
     }
-  }, [location]);
+  }, [location, service]);
 
   if (!service) {
     return <div className="text-center text-red-600">Service not found</div>;
@@ -27,7 +29,6 @@ const Services = () => {
         <meta name="description" content={service.description} />
         <meta name="keywords" content={`${service.title}, dermatology services, skin care`} />
         <link rel="canonical" href={`https://greendermatology.net/services/${id}`} />
-
         <script type="application/ld+json">
           {`
             {

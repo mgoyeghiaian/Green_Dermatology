@@ -1,4 +1,3 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 import PhysicianImage1 from '/src/assets/Paige Venables_Yeatman Photography__003.jpg'; // replace with actual image path
 
@@ -34,7 +33,7 @@ const Physicians = () => {
   return (
     <div className="bg-bg-main h-auto flex flex-col gap-5 items-center p-2 md:p-8">
       <Helmet>
-        <title>Physicians - Green Dermatology</title>
+        <title>Providers - Green Dermatology</title>
         <meta name="description" content="Meet our team of expert dermatologists in Sussex County Delaware. We specialize in pediatric dermatology, skin cancer treatment, and more." />
         <meta name="keywords" content={`${physicianNames}, best dermatologist near me, pediatric dermatology near me, dermatology clinic in Sussex County Delaware, skin specialist Sussex County Delaware`} />
         <link rel="canonical" href="https://greendermatology.net/physicians" />
