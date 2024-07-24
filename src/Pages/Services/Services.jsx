@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import services from '/src/Db/ServicesDb.js';
 import BannerImage from '/src/assets/services-banner.jpg';
 
@@ -21,6 +22,40 @@ const Services = () => {
 
   return (
     <div className="w-full">
+      <Helmet>
+        <title>{service.title} - Green Dermatology</title>
+        <meta name="description" content={service.description} />
+        <meta name="keywords" content={`${service.title}, dermatology services, skin care`} />
+        <link rel="canonical" href={`https://greendermatology.net/services/${id}`} />
+
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "${service.title}",
+              "description": "${service.description}",
+              "url": "https://greendermatology.net/services/${id}",
+              "provider": {
+                "@type": "MedicalOrganization",
+                "name": "Green Dermatology",
+                "url": "https://greendermatology.net",
+                "logo": "https://greendermatology.net/logo.png",
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+1-302-459-5010",
+                  "contactType": "Customer Service",
+                  "email": "kris@greenclinics.net"
+                },
+                "department": {
+                  "@type": "MedicalOrganization",
+                  "name": "Dermatology Department"
+                }
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="relative mb-8 w-full h-40 md:h-[100%] overflow-hidden">
         <img src={BannerImage} alt="Service Banner" className="w-full h-full object-fill" />
       </div>

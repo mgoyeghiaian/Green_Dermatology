@@ -1,8 +1,37 @@
+import { Helmet } from 'react-helmet';
 import AboutUSImage from '/src/assets/Aboutuss.jpg';
 
 const Aboutus = () => {
   return (
     <div className="bg-bg-main min-h-[85vh] flex flex-col lg:flex-row gap-4 p-5 justify-center items-center">
+      <Helmet>
+        <title>About Us - Green Dermatology</title>
+        <meta name="description" content="Welcome to Green Dermatology, where compassionate care meets expertise. Our clinic is more than just a medical facility; we're your second family in the journey towards healthy, radiant skin." />
+        <meta name="keywords" content="Green Dermatology, dermatology clinic, skin care, Delaware Dermatology, dermatologists" />
+        <link rel="canonical" href="https://greendermatology.net/aboutus" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "MedicalOrganization",
+              "name": "Green Dermatology",
+              "url": "https://greendermatology.net/aboutus",
+              "logo": "https://greendermatology.net/logo.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-302-459-5010",
+                "contactType": "Customer Service",
+                "email": "kris@greenclinics.net"
+              },
+              "department": {
+                "@type": "MedicalOrganization",
+                "name": "Dermatology Department"
+              },
+              "description": "Welcome to Green Dermatology, where compassionate care meets expertise. Our clinic is more than just a medical facility; we're your second family in the journey towards healthy, radiant skin."
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full lg:w-1/2 flex justify-center items-center mb-5 lg:mb-0">
         <img src={AboutUSImage} className="w-[80%] sm:w-[65%] lg:block hidden rounded-sm shadow-lg" alt="About Us" />
       </div>

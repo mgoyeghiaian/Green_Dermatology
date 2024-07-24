@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import PhysicianImage1 from '/src/assets/Paige Venables_Yeatman Photography__003.jpg'; // replace with actual image path
 
 const physicians = [
@@ -22,28 +24,56 @@ const physicians = [
     
     `,
   },
-  
-
+  // Add more physicians here...
 ];
+
+// Generate a comma-separated list of physician names
+const physicianNames = physicians.map(physician => physician.name).join(', ');
 
 const Physicians = () => {
   return (
-    <div className="bg-bg-main h-auto flex flex-col gap-5  items-center p-2 md:p-8">
+    <div className="bg-bg-main h-auto flex flex-col gap-5 items-center p-2 md:p-8">
+      <Helmet>
+        <title>Physicians - Green Dermatology</title>
+        <meta name="description" content="Meet our team of expert dermatologists in Sussex County Delaware. We specialize in pediatric dermatology, skin cancer treatment, and more." />
+        <meta name="keywords" content={`${physicianNames}, best dermatologist near me, pediatric dermatology near me, dermatology clinic in Sussex County Delaware, skin specialist Sussex County Delaware`} />
+        <link rel="canonical" href="https://greendermatology.net/physicians" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "MedicalOrganization",
+              "name": "Green Dermatology",
+              "url": "https://greendermatology.net/physicians",
+              "logo": "https://greendermatology.net/logo.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-302-459-5010",
+                "contactType": "Customer Service",
+                "email": "kris@greenclinics.net"
+              },
+              "department": {
+                "@type": "MedicalOrganization",
+                "name": "Dermatology Department"
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       {physicians.map((physician, index) => (
         <div
           key={index}
           className="flex flex-col w-full lg:w-[72%] border-b-2 p-5 gap-8 shadow-md bg-white"
         >
           <div className='flex flex-col lg:flex-row justify-center items-center gap-8'>
-            <img src={physician.image} className="w-[100%]  lg:w-[22%] shadow-lg" alt={physician.name} />
-            <div className="w-full lg:w-3/4  text-left">
+            <img src={physician.image} className="w-[100%] lg:w-[22%] shadow-lg" alt={physician.name} />
+            <div className="w-full lg:w-3/4 text-left">
               <h2 className="text-xl lg:text-2xl font-bold mb-4 text-tertiary">{physician.name}</h2>
               <p className="text-md leading-relaxed text-primary mb-4">
                 {physician.description1}
               </p>
             </div>
           </div>
-
         </div>
       ))}
     </div>

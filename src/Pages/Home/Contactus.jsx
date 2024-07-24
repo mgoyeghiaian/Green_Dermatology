@@ -40,6 +40,7 @@ const Contactus = () => {
 
   return (
     <div className="bg-getintouch-background bg-cover bg-center bg-no-repeat flex flex-col items-center pt-5 gap-5 lg:gap-36 md:p-16 min-h-screen">
+    
       <div className="lg:w-1/2 flex flex-col items-center text-center p-5 md:p-0">
         <h1 className="text-2xl md:text-4xl font-medium text-tertiary">GET IN TOUCH</h1>
         <h5 className="text-xl md:text-2xl text-primary">
