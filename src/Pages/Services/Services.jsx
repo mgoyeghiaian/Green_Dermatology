@@ -69,7 +69,7 @@ const Services = () => {
         {service.details.map((detail, index) => (
           <section key={index} className="mb-8">
             <h2 className="text-xl sm:text-2xl text-tertiary mb-2">{detail.title}</h2>
-            <p className="text-base sm:text-lg leading-relaxed text-primary">{detail.content}</p>
+            <p className="text-base sm:text-lg leading-relaxed text-primary" dangerouslySetInnerHTML={{ __html: detail.content }}></p>
           </section>
         ))}
       </div>

@@ -1,4 +1,4 @@
-import { Home, PhoneAndroidOutlined } from "@mui/icons-material";
+import { Email, Home, PhoneAndroidOutlined } from "@mui/icons-material";
 import { Button, TextField } from "@mui/material";
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
@@ -39,8 +39,7 @@ const Contactus = () => {
   };
 
   return (
-    <div className="bg-getintouch-background bg-cover bg-center bg-no-repeat flex flex-col items-center pt-5 gap-5 lg:gap-36 md:p-16 min-h-screen">
-
+    <div className="bg-getintouch-background border-t border-primary bg-cover bg-center bg-no-repeat flex flex-col items-center pt-5 gap-5 lg:gap-36 md:p-16 min-h-screen">
       <div className="lg:w-1/2 flex flex-col items-center text-center p-5 md:p-0">
         <h1 className="text-2xl md:text-4xl font-medium text-tertiary">GET IN TOUCH</h1>
         <h5 className="text-xl md:text-2xl text-primary">
@@ -129,16 +128,16 @@ const Contactus = () => {
               <p className="text-md">+1 (302) 459-5010</p>
             </div>
           </a>
-          {/* <a
-            href="mailto: kris@greenclinics.net"
+          <a
+            href="mailto: info@greendermatology.net"
             className="flex gap-2 items-center p-2 lg:px-10 hover:bg-gray-100 w-fit rounded-lg transition-colors"
           >
             <Email sx={{ fontSize: 35 }} className="text-tertiary" />
             <div>
               <h3 className="text-xl text-tertiary font-medium">Email</h3>
-              <p className="text-md"> kris@greenclinics.net</p>
+              <p className="text-md"> info@greendermatology.net</p>
             </div>
-          </a> */}
+          </a>
         </div>
       </div>
     </div>

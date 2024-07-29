@@ -3,7 +3,7 @@ import Afterherobanner from "./Afterherobanner";
 import Contactus from "./Contactus";
 import Hero from "./Hero";
 import Serviceshome from "./Serviceshome";
-import Testemonials from "./Testemonials";
+// import Testemonials from "./Testemonials";
 
 const Home = () => {
   return (
@@ -44,9 +44,9 @@ const Home = () => {
       <div id="services">
         <Serviceshome />
       </div>
-      <div id="testimonials">
+      {/* <div id="testimonials">
         <Testemonials />
-      </div>
+      </div> */}
       <div id="getintouch">
         <Contactus />
       </div>

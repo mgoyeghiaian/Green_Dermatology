@@ -7,7 +7,7 @@ const Serviceshome = () => {
       <div className="md:w-1/2 flex justify-center items-center flex-col text-center mb-8">
         <h1 className="text-2xl md:text-4xl font-medium text-tertiary">Fields of expertise</h1>
         <h5 className="text-xl md:text-2xl text-primary">
-          At Delaware Dermatology, our expertise spans a wide range of dermatological conditions, ensuring comprehensive care for our patients. From common concerns like acne and eczema to more serious conditions such as skin cancer.
+          At Green Dermatology, our expertise spans a wide range of dermatological conditions, ensuring comprehensive care for our patients. From common concerns like acne and eczema to more serious conditions such as skin cancer.
         </h5>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full lg:w-auto justify-center  justify-items-center">

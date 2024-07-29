@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, FormatQuote } from '@mui/icons-material';
 const testimonialsData = [
   {
     name: 'Emily Davis',
-    text: 'Delaware Dermatology has transformed my skin. The team is incredibly knowledgeable and kind.',
+    text: 'Green Dermatology has transformed my skin. The team is incredibly knowledgeable and kind.',
   },
   {
     name: 'Michael Brown',

@@ -33,8 +33,8 @@ const Navbar = () => {
       <div className="lg:flex justify-end items-center gap-5 p-2 px-10 text-xs hidden">
         <div className="flex gap-2 justify-center items-center text-primary">
           <Mail sx={{ fontSize: 18 }} className="text-tertiary" />
-          <a href="mailto: online@greendermatology.net" className="hover:text-tertiary underline-animation transition duration-300">
-            online@greendermatology.net
+          <a href="mailto: info@greendermatology.net" className="hover:text-tertiary underline-animation transition duration-300">
+            info@greendermatology.net
           </a>
         </div>
         <div className="flex gap-2 justify-center items-center text-primary">
@@ -44,13 +44,13 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-      <div className="flex lg:justify-center  lg:gap-72 justify-between p-4 lg:px-10">
+      <div className="flex lg:justify-center items-center  lg:gap-72 justify-between p-4 lg:px-10">
         <div>
           <Link to="/">
             <img src={Logo} className=" h-16 lg:h-20" alt="Logo" />
           </Link>
         </div>
-        <div className="hidden lg:flex justify-center items-center gap-14 text-gray-800 font-medium ">
+        <div className="hidden lg:flex justify-center items-center  gap-14 text-gray-800 font-medium ">
           <Link to="/" className="hover:text-secondary-green underline-animation transition  duration-300">Home</Link>
           <a onClick={() => handleScrollToSection('aboutus')} className="cursor-pointer hover:text-secondary-green   underline-animation transition duration-300">About us</a>
           <a onClick={() => handleScrollToSection('services')} className="hover:text-secondary-green  cursor-pointer underline-animation transition duration-300">Services</a>
@@ -90,8 +90,8 @@ const Navbar = () => {
           <div className="flex justify-center flex-col items-center gap-5 p-2 px-10 text-sm text-primary mt-8">
             <div className="flex gap-2 justify-center items-center">
               <Mail sx={{ fontSize: 18 }} className="text-tertiary" />
-              <a href="mailto: online@greendermatology.net" className="hover:text-tertiary transition duration-300">
-                online@greendermatology.net
+              <a href="mailto: info@greendermatology.net" className="hover:text-tertiary transition duration-300">
+                info@greendermatology.net
               </a>
             </div>
             <div className="flex gap-2 justify-center items-center">

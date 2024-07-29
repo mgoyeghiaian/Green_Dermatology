@@ -3,7 +3,7 @@ const services = [
     id: 'SRV-1001',
     title: 'ACNE',
     introTitle: 'Struggling With Acne?',
-    description: `You're not alone. Acne affects millions of Americans, regardless of age. At Green Dermatology in Delaware, Dr. Paige Venables MSPAS PA-C specialize in treating acne to help you achieve clearer, healthier skin.`,
+    description: `You're not alone. Acne affects millions of Americans, regardless of age. At Green Dermatology in Delaware,  Paige Venables MSPAS PA-C specialize in treating acne to help you achieve clearer, healthier skin.`,
     details: [
       {
         title: 'Understanding Acne',
@@ -19,22 +19,21 @@ const services = [
       },
       {
         title: 'Expert Guidance',
-        content: `Dr. Paige Venables provides personalized care, discussing all treatment options to ensure you feel confident and informed. Whether you're dealing with persistent acne or occasional breakouts, our goal is to help you achieve clear, radiant skin.`
+        content: ` Paige Venables provides personalized care, discussing all treatment options to ensure you feel confident and informed. Whether you're dealing with persistent acne or occasional breakouts, our goal is to help you achieve clear, radiant skin.`
       },
       {
         title: 'Schedule Your Consultation',
-        content: `Take the first step towards clearer skin today. Call Green Dermatology at [phone number] to schedule your appointment with our experienced dermatology team. Your journey to healthier skin starts here.`
+        content: `Take the first step towards clearer skin today. Call Green Dermatology at <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> to schedule your appointment with our experienced dermatology team. Your journey to healthier skin starts here.`
       }
     ],
     opacity: 0.65,
-
   },
   {
     id: 'SRV-1002',
     title: 'SKIN CANCER',
     opacity: 0.4,
     introTitle: 'Early detection is key to successful treatment.',
-    description: `At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C specializes in preventing, diagnosing, and treating all types of skin cancer, offering advanced treatments including Mohs surgery with a proven track record of success.`,
+    description: `At Green Dermatology, Delaware,  Paige Venables MSPAS PA-C specializes in preventing, diagnosing, and treating all types of skin cancer, offering advanced treatments including Mohs surgery with a proven track record of success.`,
     details: [
       {
         title: 'Understanding Skin Cancer',
@@ -42,11 +41,11 @@ const services = [
       },
       {
         title: 'Comprehensive Treatment',
-        content: `Dr. Paige Venables Stroup provides personalized care tailored to your specific type and stage of skin cancer. Treatment options may include topical medications, cryotherapy, phototherapy, excision, and Mohs surgery—a precise technique that removes cancerous tissue layer by layer, ensuring minimal damage to healthy tissue and high cure rates.`
+        content: ` Paige Venables Stroup provides personalized care tailored to your specific type and stage of skin cancer. Treatment options may include topical medications, cryotherapy, phototherapy, excision, and Mohs surgery—a precise technique that removes cancerous tissue layer by layer, ensuring minimal damage to healthy tissue and high cure rates.`
       },
       {
         title: 'Take Control of Your Health',
-        content: `If you notice abnormal skin growths or changes, don't delay seeking evaluation. Schedule an appointment at Green Dermatology today by calling [phone number] or booking online. Early detection and treatment could save your life.`
+        content: `If you notice abnormal skin growths or changes, don't delay seeking evaluation. Schedule an appointment at Green Dermatology today by calling  <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> or booking online. Early detection and treatment could save your life.`
       }
     ]
   },
@@ -54,9 +53,8 @@ const services = [
     id: 'SRV-1003',
     title: 'ECZEMA',
     opacity: 0.76,
-
     introTitle: 'Struggling with eczema?',
-    description: `You're not alone. Whether you're an infant or an adult, eczema can cause intense itching and discomfort. At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C offers comprehensive therapies to manage eczema symptoms and improve skin health.`,
+    description: `You're not alone. Whether you're an infant or an adult, eczema can cause intense itching and discomfort. At Green Dermatology, Delaware,  Paige Venables MSPAS PA-C offers comprehensive therapies to manage eczema symptoms and improve skin health.`,
     details: [
       {
         title: 'Understanding Eczema',
@@ -68,15 +66,15 @@ const services = [
       },
       {
         title: 'Managing Eczema at Home',
-        content: `For mild cases of eczema, home care can be effective. Dr. Paige recommends using gentle moisturizers regularly and avoiding products with strong chemicals or fragrances. Limiting bath time and using warm water, rather than hot, helps prevent skin dryness. In some cases, a diluted bleach bath can reduce bacteria on the skin and minimize flare-ups.`
+        content: `For mild cases of eczema, home care can be effective.  Paige recommends using gentle moisturizers regularly and avoiding products with strong chemicals or fragrances. Limiting bath time and using warm water, rather than hot, helps prevent skin dryness. In some cases, a diluted bleach bath can reduce bacteria on the skin and minimize flare-ups.`
       },
       {
         title: 'Treatment',
-        content: `At Green Dermatology For more severe eczema, Dr. Paige Venables provides advanced treatment options tailored to your specific needs. This may include topical medications to moisturize and protect the skin, oral medications to reduce inflammation, or biologics for resistant cases. Phototherapy using UV light can also be effective in managing eczema symptoms.`
+        content: `At Green Dermatology For more severe eczema,  Paige Venables provides advanced treatment options tailored to your specific needs. This may include topical medications to moisturize and protect the skin, oral medications to reduce inflammation, or biologics for resistant cases. Phototherapy using UV light can also be effective in managing eczema symptoms.`
       },
       {
         title: 'Finding Relief for Your Eczema',
-        content: `If eczema is affecting your quality of life, don't wait to seek treatment. Schedule an appointment at Green Dermatology by calling [phone number] or booking online. Dr. Paige Venables and her team are committed to helping you find relief from dry, itchy skin and improving your overall skin health.`
+        content: `If eczema is affecting your quality of life, don't wait to seek treatment. Schedule an appointment at Green Dermatology by calling  <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> or booking online.  Paige Venables and her team are committed to helping you find relief from dry, itchy skin and improving your overall skin health.`
       }
     ]
   },
@@ -84,9 +82,8 @@ const services = [
     id: 'SRV-1004',
     title: 'RASHES',
     opacity: 0.85,
-
     introTitle: 'Dealing with a troublesome rash?',
-    description: `Whether it's a one-time occurrence or a persistent issue, skin irritations can significantly affect your daily life. At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C specializes in diagnosing and treating rashes to provide relief and improve skin health.`,
+    description: `Whether it's a one-time occurrence or a persistent issue, skin irritations can significantly affect your daily life. At Green Dermatology, Delaware,  Paige Venables MSPAS PA-C specializes in diagnosing and treating rashes to provide relief and improve skin health.`,
     details: [
       {
         title: 'Understanding Rashes',
@@ -94,15 +91,15 @@ const services = [
       },
       {
         title: 'Effective Treatment Options',
-        content: `Dr. Paige Venables determines the best course of action based on the cause and severity of your rash. For mild cases, they may recommend at-home remedies such as oatmeal baths or keeping the affected area exposed to air. Adjusting bathing habits—like using warm water instead of hot—can also help soothe irritated skin.`
+        content: ` Paige Venables determines the best course of action based on the cause and severity of your rash. For mild cases, they may recommend at-home remedies such as oatmeal baths or keeping the affected area exposed to air. Adjusting bathing habits—like using warm water instead of hot—can also help soothe irritated skin.`
       },
       {
         title: 'When to Seek Medical Attention',
-        content: `If your rash persists despite home care, covers a large area, spreads suddenly, or is accompanied by fever or signs of infection, it's crucial to seek medical attention promptly. Dr. Paige Venables MSPAS PA-C may prescribe moisturizers, cortisone creams, oral medications like antihistamines, or administer steroid injections to alleviate symptoms and address the underlying cause.`
+        content: `If your rash persists despite home care, covers a large area, spreads suddenly, or is accompanied by fever or signs of infection, it's crucial to seek medical attention promptly.  Paige Venables MSPAS PA-C may prescribe moisturizers, cortisone creams, oral medications like antihistamines, or administer steroid injections to alleviate symptoms and address the underlying cause.`
       },
       {
         title: 'Your Path to Rash Relief',
-        content: `Don't let rashes disrupt your life. Schedule an appointment with Green Dermatology today by calling [phone number] or booking online. Dr. Paige Venables is dedicated to providing personalized care to help you achieve healthy, comfortable skin.`
+        content: `Don't let rashes disrupt your life. Schedule an appointment with Green Dermatology today by calling  <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> or booking online.  Paige Venables is dedicated to providing personalized care to help you achieve healthy, comfortable skin.`
       }
     ]
   },
@@ -110,9 +107,8 @@ const services = [
     id: 'SRV-1005',
     title: 'EXCISIONS',
     opacity: 0.9,
-
     introTitle: 'Concerned about abnormal skin growths?',
-    description: `Prompt evaluation and treatment are crucial to address potential precancerous or cancerous conditions. At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C specializes in performing precise and minimally invasive excisions to remove concerning skin lesions.`,
+    description: `Prompt evaluation and treatment are crucial to address potential precancerous or cancerous conditions. At Green Dermatology, Delaware,  Paige Venables MSPAS PA-C specializes in performing precise and minimally invasive excisions to remove concerning skin lesions.`,
     details: [
       {
         title: 'Understanding Excisions',
@@ -138,11 +134,11 @@ const services = [
       },
       {
         title: 'Post-Excision Care and Additional Treatments',
-        content: `Following excision, Dr. Paige Venables may recommend low-level light therapy (LLLT) to aid in healing and reduce recovery time. This treatment utilizes infrared or blue light to stimulate natural healing processes.`
+        content: `Following excision,  Paige Venables may recommend low-level light therapy (LLLT) to aid in healing and reduce recovery time. This treatment utilizes infrared or blue light to stimulate natural healing processes.`
       },
       {
         title: 'Schedule Your Appointment Today',
-        content: `If you have concerns about skin growths or lesions, don't delay in seeking expert evaluation and care. Schedule an appointment with Green Dermatology by calling [phone number] or booking online. Dr. Paige Venables is committed to providing personalized, effective treatments for your skin health needs.`
+        content: `If you have concerns about skin growths or lesions, don't delay in seeking expert evaluation and care. Schedule an appointment with Green Dermatology by calling  <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> or booking online.  Paige Venables is committed to providing personalized, effective treatments for your skin health needs.`
       }
     ]
   },
@@ -150,9 +146,8 @@ const services = [
     id: 'SRV-1006',
     title: 'WARTS',
     opacity: 0.65,
-
     introTitle: 'Dealing with bothersome warts?',
-    description: `Although typically harmless, these skin growths can be irritating and persistent. At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C offers a comprehensive range of treatments to effectively remove warts without leaving scars, utilizing both traditional and advanced methods.`,
+    description: `Although typically harmless, these skin growths can be irritating and persistent. At Green Dermatology, Delaware,  Paige Venables MSPAS PA-C offers a comprehensive range of treatments to effectively remove warts without leaving scars, utilizing both traditional and advanced methods.`,
     details: [
       {
         title: 'Understanding Warts',
@@ -164,7 +159,7 @@ const services = [
       },
       {
         title: 'Effective Treatment Options',
-        content: `Dr. Paige Venables tailors treatments based on the type and location of your warts:
+        content: ` Paige Venables tailors treatments based on the type and location of your warts:
           - Cryotherapy (freezing)
           - Surgical removal
           - Chemical destruction
@@ -176,11 +171,11 @@ const services = [
       },
       {
         title: 'Preventing Recurrence',
-        content: `Although wart removal doesn't guarantee they won't return, Dr. Paige Venables focuses on enhancing your immune system to help prevent recurrence or new growths caused by HPV.`
+        content: `Although wart removal doesn't guarantee they won't return,  Paige Venables focuses on enhancing your immune system to help prevent recurrence or new growths caused by HPV.`
       },
       {
         title: 'Schedule Your Appointment Today',
-        content: `If you're in Delaware and seeking expert care for wart removal or need to identify a skin growth, contact Green Dermatology today. Schedule your appointment with Dr. Paige Venables by calling [phone number] or booking online for personalized, effective treatment.`
+        content: `If you're in Delaware and seeking expert care for wart removal or need to identify a skin growth, contact Green Dermatology today. Schedule your appointment with  Paige Venables by calling  <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> or booking online for personalized, effective treatment.`
       }
     ]
   },
@@ -188,9 +183,8 @@ const services = [
     id: 'SRV-1007',
     title: 'PSORIASIS',
     opacity: 0.45,
-
     introTitle: 'Dealing with the persistent discomfort of psoriasis?',
-    description: `At Green Dermatology, Delaware, Dr. Paige Venables MSPAS PA-C specializes in managing psoriasis symptoms with a range of effective treatments. As a proud member of the National Psoriasis Foundation, they stay at the forefront of innovative therapies to alleviate your discomfort and restore your skin's health.`,
+    description: `At Green Dermatology, Delaware,  Paige Venables MSPAS PA-C specializes in managing psoriasis symptoms with a range of effective treatments. As a proud member of the National Psoriasis Foundation, they stay at the forefront of innovative therapies to alleviate your discomfort and restore your skin's health.`,
     details: [
       {
         title: 'Understanding Psoriasis',
@@ -202,7 +196,7 @@ const services = [
       },
       {
         title: 'Treatment Options',
-        content: `While psoriasis cannot be cured, Dr. Paige Venables offers various treatments to manage symptoms effectively:
+        content: `While psoriasis cannot be cured,  Paige Venables offers various treatments to manage symptoms effectively:
           - Topical medications for mild cases
           - Oral medications for moderate to severe symptoms
           - Biologic therapies to target immune responses and reduce inflammation (e.g., Humira®, SILIQ™, Remicade®)
@@ -214,7 +208,7 @@ const services = [
       },
       {
         title: 'Schedule Your Consultation',
-        content: `Don't let psoriasis control your life. Take the first step towards clearer, healthier skin by scheduling an appointment at Green Dermatology. Call [phone number] or conveniently book online today.`
+        content: `Don't let psoriasis control your life. Take the first step towards clearer, healthier skin by scheduling an appointment at Green Dermatology. Call  <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> or conveniently book online today.`
       }
     ]
   }
