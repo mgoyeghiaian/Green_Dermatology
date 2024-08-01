@@ -21,7 +21,7 @@ const Aboutus = () => {
                 "@type": "ContactPoint",
                 "telephone": "+1-302-459-5010",
                 "contactType": "Customer Service",
-                "email": "kris@greenclinics.net"
+                "email": "info@greendermatology.net"
               },
               "department": {
                 "@type": "MedicalOrganization",
@@ -44,7 +44,7 @@ const Aboutus = () => {
         <p className="text-base sm:text-lg mb-4 text-justify">At Green Dermatology, you&apos;re not just another appointment – you&apos;re part of our family. Together, let&apos;s embark on a journey towards healthier, happier skin and a brighter tomorrow.</p>
 
         <h1 className="text-3xl sm:text-4xl font-bold mb-4 mt-10 text-tertiary">Our Providers</h1>
-        <p className="text-base sm:text-lg mb-4 text-justify">Meet the skilled hands and compassionate hearts behind Green Dermatology. Our team of board-certified physicians brings together a wealth of experience and expertise in dermatological care. With a shared dedication to excellence, they strive to provide personalized treatments tailored to your unique needs. Trust in our doctors to guide you on your journey to healthier, more beautiful skin, and experience the difference that true expertise and genuine care can make.</p>
+        <p className="text-base sm:text-lg mb-4 text-justify">Meet the skilled hands and compassionate hearts behind Green Dermatology. Our Providers brings together a wealth of experience and expertise in dermatological care. With a shared dedication to excellence, they strive to provide personalized treatments tailored to your unique needs. Trust in our doctors to guide you on your journey to healthier, more beautiful skin, and experience the difference that true expertise and genuine care can make.</p>
       </div>
     </div>
   );

@@ -46,7 +46,7 @@ const Services = () => {
                   "@type": "ContactPoint",
                   "telephone": "+1-302-459-5010",
                   "contactType": "Customer Service",
-                  "email": "kris@greenclinics.net"
+                  "email": "info@greendermatology.net"
                 },
                 "department": {
                   "@type": "MedicalOrganization",

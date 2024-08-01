@@ -57,7 +57,7 @@ const Navbar = () => {
           <Link to="/physicians" className="hover:text-secondary-green underline-animation transition   duration-300">Providers</Link>
         </div>
         <div className="hidden lg:flex">
-          <a onClick={() => handleScrollToSection('getintouch')} className="cursor-pointer">
+          <a href="https://gcl.primescheduling.com/" target="_blank" className="cursor-pointer">
             <button className="bg-tertiary text-secondary  py-2 px-4 rounded-md hover:bg-secondary-green  transition duration-300">
               Make Appointment
             </button>
@@ -81,7 +81,7 @@ const Navbar = () => {
             <a onClick={() => handleScrollToSection('aboutus')} className="text-2xl font-semibold text-gray-800 cursor-pointer hover:text-tertiary underline-animation transition duration-300">About us</a>
             <a onClick={() => handleScrollToSection('services')} className="text-2xl font-semibold text-gray-800 hover:text-tertiary underline-animation transition duration-300" >Services</a>
             <Link to="/physicians" className="text-2xl font-semibold text-gray-800 hover:text-tertiary underline-animation transition duration-300" onClick={closeMenu}>Providers</Link>
-            <a onClick={() => handleScrollToSection('getintouch')} className="cursor-pointer">
+            <a href="https://gcl.primescheduling.com/" target="_blank" className="cursor-pointer">
               <button className="bg-tertiary text-white py-2 px-6 rounded-md hover:bg-secondary-green transition duration-300 text-xl">
                 Make Appointment
               </button>
