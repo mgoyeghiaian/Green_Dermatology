@@ -30,10 +30,6 @@ const services = [
       {
         title: 'Comprehensive Treatment',
         content: `We provide personalized care tailored to your specific type and stage of skin cancer. Treatment options may include topical medications, cryotherapy, and excision.`
-      },
-      {
-        title: 'Take Control of Your Health',
-        content: `If you notice abnormal skin growths or changes, don't delay seeking evaluation. Contact us at Green Dermatology today by calling <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a>. Early detection and treatment could save your life.`
       }
     ]
   },
@@ -55,10 +51,6 @@ const services = [
       {
         title: 'Treatment',
         content: `At Green Dermatology, we provide advanced treatment options tailored to your specific needs. This may include topical medications to moisturize and protect the skin, oral medications to reduce inflammation, or biologics for resistant cases.`
-      },
-      {
-        title: 'Finding Relief for Your Eczema',
-        content: `If eczema is affecting your quality of life, don't wait to seek treatment. Call us at <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> to find relief from dry, itchy skin and improve your overall skin health.`
       }
     ]
   },
@@ -80,10 +72,6 @@ const services = [
       {
         title: 'When to Seek Medical Attention',
         content: `If your rash persists despite home care, covers a large area, spreads suddenly, or is accompanied by fever or signs of infection, it's crucial to seek medical attention promptly.`
-      },
-      {
-        title: 'Your Path to Rash Relief',
-        content: `Don't let rashes disrupt your life. Contact Green Dermatology at <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> for personalized care to help you achieve healthy, comfortable skin.`
       }
     ]
   },
@@ -97,24 +85,6 @@ const services = [
       {
         title: 'Understanding Excisions',
         content: `An excision involves the surgical removal of abnormal skin growths such as moles, warts, or lesions. After removal, the tissue may be examined microscopically to confirm the absence of cancerous cells.`
-      },
-      {
-        title: 'Common Reasons for Excisions',
-        content: `You may be recommended for an excision if you have:
-- Skin growths or lesions
-- Seborrheic keratosis
-- Actinic keratosis
-- Basal cell carcinoma
-- Squamous cell carcinoma
-- Melanoma`
-      },
-      {
-        title: 'What to Expect During an Excision',
-        content: `Excisions are typically performed in-office under local anesthesia to ensure comfort during the procedure. Depending on the type and location of the lesion, different techniques may be employed.`
-      },
-      {
-        title: 'Schedule Your Consultation',
-        content: `For concerns about abnormal skin growths, reach out to Green Dermatology at <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> for expert evaluation and treatment.`
       }
     ]
   },
@@ -148,10 +118,6 @@ const services = [
       {
         title: 'Preventing Recurrence',
         content: `Although wart removal doesn't guarantee they won't return, we focus on enhancing your immune system to help prevent recurrence or new growths caused by HPV.`
-      },
-      {
-        title: 'Expert Wart Treatment',
-        content: `If you're in Delaware and seeking expert care for wart removal or need to identify a skin growth, contact Green Dermatology at <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> for personalized, effective treatment.`
       }
     ]
   },
@@ -179,10 +145,6 @@ const services = [
       {
         title: 'Managing Psoriasis',
         content: `The team at Green Dermatology provides personalized care to address your specific psoriasis symptoms and minimize flare-ups. We work closely with you to develop a treatment plan that suits your needs and lifestyle.`
-      },
-      {
-        title: 'Schedule Your Consultation',
-        content: `Don't let psoriasis control your life. Take the first step towards clearer, healthier skin by calling Green Dermatology at <a href="tel:+13024595010" class="text-green-600 font-bold hover:text-primary">+1 (302) 459-5010</a> for your consultation.`
       }
     ]
   }

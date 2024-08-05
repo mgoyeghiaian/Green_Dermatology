@@ -46,8 +46,8 @@ const Contactus = () => {
           We&apos;re here to help! If you have any questions, concerns, or comments about Green Dermatology, please feel free to reach out to us using the form below. We strive to respond promptly to all inquiries and look forward to assisting you with your dermatological needs.
         </h5>
       </div>
-      <div className="w-full flex flex-col lg:flex-row justify-center items-center p-5 gap-8">
-        <form className="flex flex-col w-full lg:w-1/2 space-y-4" onSubmit={sendEmail}>
+      <div className="w-full flex flex-col lg:flex-row  justify-center items-end p-5 lg:pl-52  gap-8">
+        <form className="flex flex-col w-full lg:w-1/2  space-y-4" onSubmit={sendEmail}>
           <div className="flex flex-col lg:flex-row gap-4">
             <TextField
               id="fname"
@@ -105,7 +105,7 @@ const Contactus = () => {
             Submit
           </Button>
         </form>
-        <div className="w-full lg:w-1/2 self-start flex flex-col gap-4">
+        <div className="w-full lg:w-1/3 self-start flex flex-col gap-4">
           <a
             href="https://maps.app.goo.gl/9Q1DkZ7hLk8FLJxz7"
             target="_blank"
